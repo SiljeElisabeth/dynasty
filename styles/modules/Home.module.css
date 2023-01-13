@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Nunito+Sans:wght@300&display=swap');
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:2em;
+}
+
+.heading{
+  height:50vh;
+  display: flex;
+  justify-content: left;
+  font-size: 1.5em;
+  background-image: url("../../public/chuttersnap-u91R8WPaKQU-unsplash\ \(1\).jpg");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: #eaf0ee;
+}
+.heading h1{
+  align-self: center;
+  padding-left:2em;
+}
+
+.item{
+  text-align: center;
+  border-radius: 5px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item img{
+  object-fit: contain;
+}
+.item h2{
+  max-width:320px;
+  font-size: 1.2em;
+  margin:.1em;
+}
+.item a{
+  background-color: #6900a6 ;
+  color:white;
+  text-decoration: none;
+  padding:0.5em 1em;
+  border-radius: 5px;
+  box-shadow: 2px 3px 3px rgb(170, 170, 170);
+}
+
+.item a:hover{
+  background-color:#550086 ;
+}
+
+@media screen and (max-width: 600px) {
+ .grid{
+  grid-template-columns: 1fr;
+ }
+
+}

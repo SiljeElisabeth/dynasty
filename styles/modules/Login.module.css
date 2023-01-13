@@ -1,0 +1,37 @@
+.formContainer form{
+    display:flex;
+    flex-direction: column;
+    border: 1px solid #004483 ;
+    padding:2em;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #c4c4c4;
+    margin: 0 2em;
+}
+
+.formContainer span{
+    color:red;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    margin-top:1em;
+    background: radial-gradient( #00a81cd5 , #005c0f );
+    color:white;
+    font-weight: bolder;
+    border-radius: 5px;
+    padding:1em;
+    cursor: pointer;
+    width:40%;
+    border:none;
+}
+
+.login:hover{
+    background: radial-gradient( #008f18d5 , #005c0f );
+}
+
+.login:active{ 
+    background: #008316 ;
+}

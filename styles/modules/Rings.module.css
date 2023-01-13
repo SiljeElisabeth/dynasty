@@ -1,0 +1,40 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap:1em;
+    margin:3em 1em;
+}
+
+.container h4{
+    margin:0;
+}
+.container p{
+    margin:.2em;
+}
+
+.link{
+    color:black;
+}
+.goback{
+    padding-top:4em;
+    z-index:1000;
+    cursor: pointer;
+}
+
+.link:hover{
+    text-decoration: none;
+}
+
+   @media screen and (max-width:750px){
+    .container{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container img{
+        width:400px;
+        height:300px;
+    }
+   }
