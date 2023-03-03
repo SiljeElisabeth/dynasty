@@ -7,9 +7,9 @@ import Nav from "../../components/layout/Nav";
 import Link from "next/link";
 
 export default function Ring({ ring }) {
-  console.log(ring);
   return (
     <>
+      <Head title={ring.name} />
       <Nav />
       <Layout>
         <div className={styles.goback}>
@@ -17,7 +17,7 @@ export default function Ring({ ring }) {
             Go back
           </Link>
         </div>
-        <Head title={ring.name} />
+
         <div className={styles.container}>
           <Image
             src={ring.images[0].src}

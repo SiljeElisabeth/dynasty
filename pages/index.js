@@ -9,13 +9,12 @@ import Link from "next/link";
 export default function Home(props) {
   return (
     <>
+      <Head />
       <Nav />
       <div className={styles.heading}>
         <h1>DYNASTY</h1>
       </div>
       <Layout>
-        <Head />
-
         <div className={styles.grid}>
           {props.rings.map((ring) => {
             return (

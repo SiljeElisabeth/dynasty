@@ -5,9 +5,9 @@ export default function Head({ title = "" }) {
     <NextHead>
       <title>
         {title}
-        {title ? " | " : ""} JS frameworks CA
+        {title ? " | " : ""} Dynasty
       </title>
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/icons8-diamond-ring-16.ico" />
     </NextHead>
   );
 }
