@@ -4,10 +4,9 @@ import { PROD_URL } from "../constants/api";
 import styles from "../styles/modules/Home.module.css";
 import Image from "next/image";
 import Nav from "../components/layout/Nav";
+import Link from "next/link";
 
 export default function Home(props) {
-  console.log(props);
-
   return (
     <>
       <Nav />
@@ -30,7 +29,7 @@ export default function Home(props) {
                 />
                 <h2>{ring.name}</h2>
                 <h3>KR {ring.prices.price}</h3>
-                <a href={`/rings/${ring.id}`}>View More</a>
+                <Link href={`/rings/${ring.id}`}>View More</Link>
               </div>
             );
           })}

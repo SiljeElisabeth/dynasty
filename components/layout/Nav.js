@@ -18,7 +18,7 @@ export default function Nav() {
       <Link href="/">Home</Link>
       <Link href="/contact">Contact</Link>
       {auth ? (
-        <a onClick={logout}>Log out</a>
+        <Link onClick={logout}>Log out</Link>
       ) : (
         <Link href="/login">Login</Link>
       )}

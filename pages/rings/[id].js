@@ -4,6 +4,7 @@ import Head from "../../components/layout/Head";
 import Image from "next/image";
 import styles from "../../styles/modules/Rings.module.css";
 import Nav from "../../components/layout/Nav";
+import Link from "next/link";
 
 export default function Ring({ ring }) {
   console.log(ring);
@@ -12,9 +13,9 @@ export default function Ring({ ring }) {
       <Nav />
       <Layout>
         <div className={styles.goback}>
-          <a className={styles.link} href="/">
+          <Link className={styles.link} href="/">
             Go back
-          </a>
+          </Link>
         </div>
         <Head title={ring.name} />
         <div className={styles.container}>
