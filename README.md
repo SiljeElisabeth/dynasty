@@ -1,5 +1,5 @@
 # DYNASTY (JS Frameworks CA)
-
+Dynasty is a mock ecommerce store where users can view and click on rings for sale and read more details about them aswel as log in and view a Admin page.
 ## Description
 
 JavaScript Frameworks CA brief:
