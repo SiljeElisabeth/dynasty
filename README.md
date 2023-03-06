@@ -32,8 +32,6 @@ Admin:
 
 ## Built With
 
-You can list a the tech stack that you've used over here
-
 - [React.js](https://reactjs.org/)
 - [Next.js](https://nextjs.org/)
 - [Sass](https://sass-lang.com/)
